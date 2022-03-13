@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingTop="25dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".ui.Common.LogIN.LogIN_Fragment" android:background="@color/white">
+
+<EditText
+    android:id="@+id/fr_sign_in_et_username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp"
+    android:ems="10"
+    android:hint="User name"
+    android:inputType="textEmailAddress"
+    style="@style/TextAppearance.AppCompat"
+   />
+
+<EditText
+    android:id="@+id/fr_sign_in_et_password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp"
+    android:ems="10"
+    android:hint="Password"
+    android:inputType="textPassword"
+    style="@style/TextAppearance.AppCompat"/>
+
+<Spinner
+    android:id="@+id/fr_sign_in_spinner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp"
+    android:outlineAmbientShadowColor="@color/gray240"
+    android:outlineSpotShadowColor="@color/gray240"
+    android:entries="@array/sign_in_array" />
+
+<Button
+    android:id="@+id/fr_sign_in_btn_sign_in"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_for_9_to_16"
+    android:textColor="@color/white"
+    android:layout_margin="50dp"
+    app:backgroundTint="@null"
+    android:text="Sign in"
+    android:layout_marginRight="@dimen/_50sdp"
+    android:layout_marginEnd="@dimen/_50sdp" />
+</LinearLayout>

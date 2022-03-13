@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    style="@style/CardView"
+    tools:context=".ui.UI_Admin.Customer.Customer_Fragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/C_F_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/ic_cutomer_profile_top"
+            android:layout_gravity="center"
+            android:contentDescription="@string/todo"
+            android:outlineAmbientShadowColor="@color/orange"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            >
+
+            <ScrollView
+                android:id="@+id/C_F_scroolview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/CardView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/C_F_Firstname_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="start"
+                            android:padding="8dp"
+                            android:layout_margin="8dp"
+                            android:text="@string/first_name"
+                            android:textStyle="italic"
+                            style="@style/CardView"/>
+
+                        <TextView
+                            android:id="@+id/C_F_Lastname_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="start"
+                            android:padding="8dp"
+                            android:layout_margin="8dp"
+
+                            android:text="@string/second_name"
+                            android:textStyle="italic"
+                            style="@style/CardView"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/C_F_user_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_name"
+                        android:textStyle="italic"
+                        android:padding="8dp"
+                        android:layout_margin="8dp"
+                        style="@style/CardView"/>
+
+                    <TextView
+                        android:id="@+id/C_F_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:layout_margin="8dp"
+                        android:text="@string/password"
+                        android:textStyle="italic"
+                        style="@style/CardView"/>
+
+                    <TextView
+                        android:id="@+id/C_F_phone_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8sp"
+                        android:layout_margin="8dp"
+                        android:text="@string/phone_number"
+                        android:textStyle="italic"
+                        style="@style/CardView"/>
+
+                    <TextView
+                        android:id="@+id/C_F_activae_state"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:layout_margin="8dp"
+                        android:text="@string/activae_state"
+                        android:textStyle="italic"
+                        style="@style/CardView"/>
+
+                    <TextView
+                        android:id="@+id/C_F_speed_adsl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:layout_margin="8dp"
+                        android:text="@string/speed_adsl"
+                        android:textStyle="italic"
+                        style="@style/CardView"/>
+
+                    <TextView
+                        android:id="@+id/C_F_account_point_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:layout_margin="8dp"
+                        android:text="@string/invoice_value"
+                        android:textStyle="italic"
+                        style="@style/CardView"/>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

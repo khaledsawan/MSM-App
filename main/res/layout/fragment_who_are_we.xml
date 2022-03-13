@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".ui.Common.Who_Are_We.Who_Are_We_Fragment">
+
+>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+    >
+        <TextView
+            android:id="@+id/how_we_are_how_we_are_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/how_we_are"
+            android:textSize="16sp"
+            android:textColor="@color/orange"/>
+
+        <TextView
+            android:id="@+id/how_we_are_how_we_are_info_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:text="@string/three_students_from_the_college_of_informatics_engineering_are_striving_for_excellence_and_are_in_favor_of_the_fourth_year_under_the_name_of_a_company_msm" />
+
+        <TextView
+            android:id="@+id/how_we_are_Scoring_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/scoring"
+
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/orange"/>
+
+        <TextView
+            android:id="@+id/how_we_are_Scoring_info_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:text="@string/providing_stable_and_effective_internet_connection_services_and_securing_suitable_internet_solutions_for_individuals"
+            />
+
+        <TextView
+            android:id="@+id/how_we_are_center_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/our_vision"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:textColor="@color/orange"/>
+
+        <TextView
+            android:id="@+id/how_we_are_center_info_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:text="@string/we_strive_to_be_best_of_the_best" />
+
+        <TextView
+            android:id="@+id/how_we_are_rate_us_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/rate_us"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="@color/orange"/>
+
+        <TextView
+            android:id="@+id/how_we_are_rate_us_info_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:text="@string/each_of_us_in_msm_the_muscat_securities_market_believes_that_the_success_of_the_company_s_core_objectives_and_tasks_paves_the_way_to_reach_the_path_of_success_by_working_in_a_team_spirit_together_to_overcome_challenges_and_search_for_new_ideas_and_solutions_to_any_problem_or_obstacle_in_addition_to_that_focusing_on_customer_service_estimating_their_needs_and_desires_and_working_to_meet_them_the_provider_msm_provides_a_landline_internet_connection" />
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+android:orientation="vertical"
+android:padding="8dp"
+android:layout_margin="8dp"
+tools:context=".ui.UI_Center.Edit_Customer.Edit_Customer_Fragment">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/pos_edit_cus_et_new_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="New First name"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:layout_margin="25dp"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/pos_edit_cus_et_new_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:layout_margin="25dp"
+            android:padding="8dp"
+            android:hint="New Last name"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/pos_edit_cus_et_new_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:layout_margin="25dp"
+            android:padding="8dp"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/pos_edit_cus_et_new_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:layout_margin="25dp"
+            android:padding="8dp"
+            android:hint="New Customer phone"
+            android:inputType="phone"
+            android:paddingLeft="15dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/pos_edit_cus_btn_Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:padding="8dp"
+           android:background="@drawable/et_shape"
+            android:drawableRight="@drawable/edit_profile_pos_service"
+            android:text="Edit profile" />
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

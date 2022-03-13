@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    style="@style/CardView"
+tools:context=".ui.UI_Center.Add_Offer.Add_Offer_Fragment">
+
+
+<EditText
+    android:id="@+id/pos_add_offer_et_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginRight="10dp"
+    android:ems="10"
+    android:hint="Put your offer title here"
+    android:inputType="textMultiLine"
+    style="@style/CardView"/>
+
+<EditText
+    android:id="@+id/pos_add_offer_et_offer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="40dp"
+    android:layout_marginRight="10dp"
+    android:ems="10"
+    android:hint="Put your offer here"
+    style="@style/CardView"
+    android:inputType="textMultiLine" />
+
+<Button
+    android:id="@+id/pos_add_offer_btn_add_offer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="20dp"
+    android:drawableRight="@drawable/add_offer_pos_home"
+    android:background="@drawable/et_shape"
+    android:text="Add the offer"
+    style="@style/CardView"/>
+</LinearLayout>

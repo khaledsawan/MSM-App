@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    style="@style/CardView"
+    android:background="@drawable/et_shape"
+    >
+
+    <TextView
+        android:id="@+id/custom_csr_tv_ID"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="@string/id"
+        android:textSize="@dimen/Medium_Text"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/custom_csr_tv_ID_Text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/Medium_Text"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/custom_csr_tv_ID"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/custom_csr_tv_Title"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="Title :"
+        android:textSize="@dimen/Medium_Text"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custom_csr_tv_ID" />
+
+    <TextView
+        android:id="@+id/custom_csr_tv_Title_Text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/Medium_Text"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/custom_csr_tv_Title"
+        app:layout_constraintTop_toBottomOf="@+id/custom_csr_tv_ID_Text" />
+
+    <TextView
+        android:id="@+id/custom_csr_tv_Subject"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="Subject :"
+        android:textColor="@color/black"
+        android:textSize="@dimen/Medium_Text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custom_csr_tv_Title" />
+
+    <TextView
+        android:id="@+id/custom_csr_tv_Subject_Text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/Medium_Text"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/custom_csr_tv_Subject"
+        app:layout_constraintTop_toBottomOf="@+id/custom_csr_tv_Title_Text" />
+
+    <TextView
+        android:id="@+id/custom_csr_tv_Cost"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cost"
+        android:textSize="@dimen/Medium_Text"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custom_csr_tv_Subject" />
+
+    <TextView
+        android:id="@+id/custom_csr_tv_Cost_Text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="@dimen/Medium_Text"
+
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/custom_csr_tv_Cost"
+        app:layout_constraintTop_toBottomOf="@+id/custom_csr_tv_Subject_Text" />
+
+    <Button
+        android:id="@+id/custom_csr_btn_Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_my_services"
+        android:textSize="@dimen/Medium_Text"
+        android:textAllCaps="false"
+
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="@drawable/shape_for_9_to_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custom_csr_tv_Cost_Text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

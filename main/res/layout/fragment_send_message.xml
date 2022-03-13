@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.UI_Customer_Visitor.Send_Message.Send_Message_Fragment">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:padding="8dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:text="@string/be_one"
+        android:textSize="@dimen/Larg_Text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="@string/please"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/et_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_shape"
+        android:drawableLeft="@drawable/edit"
+        android:ems="10"
+        android:padding="8dp"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:hint="@string/please"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/Medium_Text"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/edit" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_send_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:padding="8dp"
+        android:background="@drawable/et_shape"
+        android:gravity="center"
+        android:text="@string/send"
+        android:textSize="20sp"
+        app:strokeColor="@color/purple_700"
+        app:strokeWidth="5dp" />
+
+</LinearLayout>

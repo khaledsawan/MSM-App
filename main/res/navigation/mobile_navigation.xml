@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_login">
+
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.msm.ui.Common.LogIN.LogIN_Fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_log_in" />
+    <fragment
+        android:id="@+id/nav_Visitor_Main"
+        android:name="com.example.msm.ui.UI_Customer_Visitor.VisiorUI_Main.Visitor_Main_Fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_visitor_main" />
+
+    <fragment
+        android:id="@+id/nav_Customer_Main"
+        android:name="com.example.msm.ui.UI_Customer_Visitor.CustomerUI_Main.Customer_Main_Fragment"
+        android:label="@string/menu_Customer_Home"
+        tools:layout="@layout/fragment_customer_main" />
+    <fragment
+        android:id="@+id/nav_Center_Main"
+        android:name="com.example.msm.ui.UI_Center.CenterUI_Main.Center_Main_Fragment"
+        android:label="@string/menu_Center_Home"
+        tools:layout="@layout/fragment_center_main" />
+
+    <fragment
+        android:id="@+id/nav_Admin_Main"
+        android:name="com.example.msm.ui.UI_Admin.AdminUI_Main.main_Fragment_manager"
+        android:label="@string/menu_Admin_Home"
+        tools:layout="@layout/fragment_main__manager" />
+
+    <fragment
+        android:id="@+id/nav_Connect_With_Us"
+        android:name="com.example.msm.ui.Common.Connect_With_Us.Connect_With_Us_Fragment"
+        android:label="@string/menu_connect_with_us"
+        tools:layout="@layout/fragment_connect_with_us" />
+    <fragment
+        android:id="@+id/nav_Who_Are_We"
+        android:name="com.example.msm.ui.Common.Who_Are_We.Who_Are_We_Fragment"
+        android:label="@string/menu_who_are_we"
+        tools:layout="@layout/fragment_who_are_we" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.msm.ui.Common.LogOUT.LogOUT_Fragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_log_out" />
+</navigation>

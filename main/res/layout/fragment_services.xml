@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".ui.UI_Admin.Services.Services_fragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/S_F_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/S_F_LinearLayout_title_cost_serial"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="8dp"
+                        android:layout_margin="8dp"
+                        android:visibility="visible">
+
+                        <EditText
+                            android:id="@+id/S_F_title_et"
+                            style="@style/CardView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:padding="8dp"
+                            android:layout_margin="8dp"
+                            android:inputType="textPersonName"
+                            android:hint="@string/titlewithkotation" />
+
+                        <EditText
+                            android:id="@+id/S_F_cost_et"
+                            style="@style/CardView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:padding="8dp"
+                            android:layout_margin="8dp"
+                            android:inputType="number"
+                            android:hint="@string/coustwithcotation" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/S_F_LinearLayout_subject"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        android:layout_margin="8dp"
+                        android:visibility="visible">
+
+                        <EditText
+                            android:id="@+id/S_F_subject_et"
+                            style="@style/CardView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:padding="8dp"
+                            android:layout_margin="8dp"
+                            android:inputType="text"
+                            android:hint="@string/subjectwithcotation" />
+
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/S_F_add_new_item1_et"
+                        style="@style/CardView"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_margin="25dp"
+                        android:padding="8dp"
+                        android:background="@drawable/et_shape"
+                        android:text="@string/add"
+                        android:textSize="20sp"
+                        android:visibility="gone"
+                       />
+
+                    <Button
+                        android:id="@+id/S_F_add_new_item2_et"
+                        style="@style/CardView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                       android:layout_marginTop="25dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginEnd="50dp"
+                        android:layout_marginBottom="25dp"
+                        android:padding="8dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/et_shape"
+                        android:text="@string/add"
+                        android:textSize="20sp"
+                        />
+
+                </LinearLayout>
+            </ScrollView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+</FrameLayout>

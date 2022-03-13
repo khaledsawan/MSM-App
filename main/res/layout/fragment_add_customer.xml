@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    style="@style/CardView"
+tools:context=".ui.UI_Center.Add_Customer.Add_Customer_Fragment">
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/pos_add_cus_et_firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="First name"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/pos_add_cus_et_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Last name"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/pos_add_cus_et_user_name_in_system"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="User name in system"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/pos_add_cus_et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/pos_add_cus_et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Customer phone"
+            android:inputType="phone"
+            android:paddingLeft="15dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/pos_add_cus_et_speed_adsl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Speed adsl"
+            android:inputType="phone"
+            android:paddingLeft="15dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/pos_add_cus_et_account_point_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Account points value"
+            android:inputType="phone"
+            android:paddingLeft="15dp"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender : "
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="@dimen/Larg_Text" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/pos_add_cus_RB_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Female"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/pos_add_cus_RB_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Male"
+                    android:textSize="16sp" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pos_add_cus_btn_ADD"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_margin="30dp"
+            android:padding="8dp"
+            android:drawableRight="@drawable/add_user"
+            android:background="@drawable/et_shape"
+            android:text="Add the customer" />
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

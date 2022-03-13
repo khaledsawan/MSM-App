@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@color/white"
+tools:context=".ui.UI_Admin.AdminUI_Main.main_Fragment_manager">
+android:id="@+id/main_Fragment_manager" >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/addcenterad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/centers"
+            android:drawableRight="@drawable/ic_center_cell_btn"
+            android:background="@drawable/shape_for_btn"
+            app:backgroundTint="@null"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:drawableEnd="@drawable/ic_center_cell_btn" />
+        <Button
+            android:id="@+id/M_F_M_revenues_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_for_btn"
+            android:drawableRight="@drawable/ic_revenue_btn"
+            app:backgroundTint="@null"
+            android:text="@string/revenues"
+            android:drawableEnd="@drawable/ic_revenue_btn"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"/>
+        <Button
+            android:id="@+id/M_F_M_bills_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@null"
+            android:background="@drawable/shape_for_btn"
+            android:drawableRight="@drawable/ic_bills_btn"
+            android:text="@string/bills"
+            android:drawableEnd="@drawable/ic_bills_btn"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"/>
+        <Button
+            android:id="@+id/M_F_Services_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@null"
+            android:background="@drawable/shape_for_btn"
+            android:drawableRight="@drawable/ic_my_services2"
+            android:text="@string/services"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:drawableEnd="@drawable/ic_my_services" />
+        <Button
+            android:id="@+id/M_F_Offers_And_Ads_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@null"
+            android:background="@drawable/shape_for_btn"
+            android:drawableRight="@drawable/ic_offer_btn__2_"
+            android:text="@string/offers_and_ads"
+            android:drawableEnd="@drawable/ic_offer_btn__2_"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"/>
+        <Button
+            android:id="@+id/M_F_payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_for_btn"
+            android:drawableRight="@drawable/ic_payment_btn"
+            app:backgroundTint="@null"
+            android:text="@string/payment"
+            android:drawableEnd="@drawable/ic_payment_btn"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"/>
+        <Button
+            android:id="@+id/M_F_Customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_for_btn"
+            android:drawableRight="@drawable/ic_customers_btn"
+            app:backgroundTint="@null"
+            android:text="@string/customer"
+            android:drawableEnd="@drawable/ic_customers_btn"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"/>
+        <Button
+            android:id="@+id/chang_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_for_btn"
+            app:backgroundTint="@null"
+            android:drawableRight="@drawable/ic_request_btn"
+            android:text="@string/change_speed_requests"
+            android:drawableEnd="@drawable/ic_request_btn"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"/>
+        <Button
+            android:id="@+id/centers_requests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_for_btn"
+            app:backgroundTint="@null"
+            android:drawableRight="@drawable/ic_request_btn2"
+            android:text="@string/centers_requests"
+            android:drawableEnd="@drawable/ic_request_btn2"
+            android:textSize="18sp"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"/>
+    </LinearLayout>
+</ScrollView>
+
+</FrameLayout>

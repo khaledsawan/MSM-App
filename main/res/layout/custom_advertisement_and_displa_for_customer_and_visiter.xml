@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    style="@style/CardView"
+    android:background="@drawable/et_shape"
+   >
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/et_shape"
+    android:layout_marginTop="16dp"
+    android:padding="8dp"
+    >
+    <TextView
+        android:id="@+id/title_adver_customer_visiter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_ad"
+        android:padding="8dp"
+        android:layout_gravity="start"
+        android:gravity="start"
+        style="@style/CardView"
+        android:textSize="18sp"
+        android:textColor="@color/orange"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/text_adver_customer_visiter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_ad"
+        android:layout_gravity="start"
+        android:gravity="start"
+        style="@style/CardView"
+        android:padding="8dp"
+        android:textSize="15sp"
+        android:textColor="@color/gray8383"
+        android:layout_margin="8dp"
+        />//
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    style="@style/CardView"
+tools:context=".ui.UI_Center.CenterUI_Main.Center_Main_Fragment">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/center_Main_btn_add_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:padding="8dp"
+            android:layout_margin="25dp"
+            android:drawableRight="@drawable/add_customer_pos_home"
+            android:text="@string/center_Main_btn_add_customer_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/center_Main_btn_add_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            android:text="@string/center_Main_btn_add_service_text"
+            android:drawableRight="@drawable/pos_service_pos_home"
+            android:textAllCaps="false"
+            android:textSize="@dimen/Medium_Text"
+            android:padding="8dp"
+            android:layout_margin="25dp"
+            android:textStyle="bold"
+            app:cornerRadius="50dp" />
+
+        <Button
+            android:id="@+id/center_Main_btn_Messages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            android:text="Messages"
+            android:drawableRight="@drawable/send_request_pos_home"
+            android:textAllCaps="false"
+            android:textSize="@dimen/Medium_Text"
+            android:padding="8dp"
+            android:layout_margin="25dp"
+            android:textStyle="bold"
+            app:cornerRadius="50dp" />
+
+        <Button
+            android:id="@+id/center_Main_btn_send_request_to_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:padding="8dp"
+            android:layout_margin="25dp"
+            android:drawableRight="@drawable/send_request_pos_home"
+            android:text="@string/center_Main_btn_send_request_to_admin_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/center_Main_btn_add_offer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:padding="8dp"
+            android:layout_margin="25dp"
+            android:drawableRight="@drawable/add_offer_pos_home"
+            android:text="@string/center_Main_btn_add_offer_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

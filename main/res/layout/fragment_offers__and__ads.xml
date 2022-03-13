@@ -1,0 +1,108 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".ui.UI_Admin.Advertisements.Offers_And_Ads_Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/O_A_A_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessParent"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/O_A_A_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:minWidth="0dp">
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+            <Button
+                android:id="@+id/O_A_A_Add_offers_btn"
+                style="@style/CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/et_shape"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"
+                android:text="@string/add_offer"
+                android:textColor="@color/white" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/o_a_a_f_linearlayout_adding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:visibility="gone">
+
+                    <EditText
+                        android:id="@+id/o_a_a_f_offer_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:layout_margin="20dp"
+                        android:padding="8dp"
+                        android:inputType="textPersonName"
+                        android:hint="@string/offer"
+                        style="@style/CardView"/>
+
+                    <EditText
+                        android:id="@+id/o_a_a_f_title_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:layout_margin="20dp"
+                        android:padding="8dp"
+                        android:inputType="textPersonName"
+                        android:hint="@string/title"
+                        style="@style/CardView"/>
+
+                    <Button
+                        android:id="@+id/o_a_a_f_add_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
+                        android:padding="8dp"
+                        android:text="@string/add_new_offer"
+                        android:background="@drawable/et_shape"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+            </ScrollView>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".ui.UI_Admin.Add_Centers.Center_fragment"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    style="@style/CardView">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/center_fragment_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/center_fragment_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:minWidth="0dp" />
+
+            <Button
+                android:id="@+id/center_fragment_Add_center_btn"
+                style="@style/CardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/et_shape"
+                android:text="@string/add_center"
+                android:textColor="@color/white"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/center_fragment_linearlayout_adding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/center_fragment_email_et"
+                    style="@style/CardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/email"
+                    android:padding="8dp"
+                    android:layout_margin="8dp"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/center_fragment_password_et"
+                    style="@style/CardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/password"
+                    android:padding="8dp"
+                    android:layout_margin="8dp"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/center_fragment_location_et"
+                    style="@style/CardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/location"
+
+                    android:padding="8dp"
+                    android:layout_margin="8dp"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/center_fragment_add_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/et_shape"
+                    android:text="@string/add_new_center"
+                    android:textColor="@color/white"
+                    android:padding="8dp"
+                    android:layout_margin="8dp"
+                    android:textColorHint="@color/green"
+                 />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+</FrameLayout>

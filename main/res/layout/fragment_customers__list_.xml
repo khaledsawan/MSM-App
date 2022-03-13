@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.UI_Admin.Customer.Customers_List_Fragment">
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/C_F_L_Recyclerview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+</FrameLayout>

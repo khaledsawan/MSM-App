@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    style="@style/CardView"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+tools:context=".ui.UI_Center.Customer_Service_Interface.Customer_Services_Interface_Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/pos_pos_service_et_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/user_name_in_system"
+                android:inputType="textPersonName"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:paddingStart="15dp" />
+
+            <EditText
+                android:id="@+id/pos_pos_service_et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/pos_pos_service_btn_deactivate_search_on_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:background="@drawable/et_shape"
+                android:drawableRight="@drawable/search_on_account_pos_service"
+                android:padding="8dp"
+                android:text="Search on the account" />
+
+            <TextView
+                android:id="@+id/pos_pos_service_deactivate_tv_result"
+                style="@style/CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:background="@drawable/et_shape"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/pos_pos_service_btn_deactivate_service"
+                style="@style/CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:backgroundTint="@color/purple_200"
+                android:clickable="false"
+                android:drawableRight="@drawable/deactive_service_pos_service"
+                android:padding="8dp"
+                android:text="Deactivate a service"
+                android:textSize="18sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/pos_pos_service_btn_pay_cash"
+                style="@style/CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="25dp"
+                android:backgroundTint="@color/purple_200"
+                android:clickable="false"
+                android:drawableRight="@drawable/pay_bill_pos_service"
+                android:padding="8dp"
+                android:text="Pay bill cash"
+                android:textSize="18sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/pos_pos_service_btn_deactivate_account"
+                style="@style/CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:backgroundTint="@color/purple_200"
+                android:clickable="false"
+                android:drawableRight="@drawable/deactive_the_account_pos_service"
+                android:padding="8dp"
+                android:text="(Active / Deactivate) the account"
+                android:textSize="18sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/pos_pos_service_btn_edit_profile"
+                style="@style/CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:backgroundTint="@color/purple_200"
+                android:clickable="false"
+                android:drawableRight="@drawable/edit_profile_pos_service"
+                android:padding="8dp"
+                android:text="Edit profile"
+                android:textSize="18sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

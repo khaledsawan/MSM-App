@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".ui.UI_Customer_Visitor.Profile.Profile_Fragment">
+
+
+
+
+<TextView
+    android:id="@+id/p_tv_Text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="@dimen/XLarg_Text"
+    android:layout_marginBottom="@dimen/_50sdp"
+    android:text="@string/p_tv_Text_text"
+    android:textSize="@dimen/Larg_Text" />
+
+<TextView
+    android:id="@+id/p_tv_UserName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/et_shape"
+    android:drawableStart="@drawable/ic_username"
+    android:drawableLeft="@drawable/ic_username"
+    android:gravity="center"
+    android:padding="8dp"
+    android:layout_margin="25dp"
+    android:text="TextView"
+    android:textSize="@dimen/Medium_Text" />
+
+<TextView
+    android:id="@+id/p_tv_Password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/et_shape"
+    android:drawableStart="@drawable/ic_password"
+    android:layout_margin="25dp"
+    android:padding="8dp"
+    android:drawableLeft="@drawable/ic_password"
+    android:gravity="center"
+    android:text="TextView"
+    android:textSize="@dimen/Medium_Text" />
+
+</LinearLayout>

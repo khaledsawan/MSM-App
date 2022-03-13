@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:baselineAligned="false"
+style="@style/CardView"
+android:layout_marginTop="16dp"
+android:layout_marginBottom="16dp"
+android:padding="8dp"
+android:background="@drawable/et_shape"
+android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/custom_show_all_tv_ID_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/textview"
+        android:textSize="@dimen/Medium_Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/custom_show_all_tv_Title_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/textview"
+        android:textSize="@dimen/Medium_Text"
+         />
+    <TextView
+        android:id="@+id/custom_show_all_tv_Subject_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/textview"
+        android:textSize="@dimen/Medium_Text"
+        />
+    <TextView
+        android:id="@+id/custom_show_all_tv_Cost_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="@string/textview"
+        android:textSize="@dimen/Medium_Text"
+       />
+</androidx.appcompat.widget.LinearLayoutCompat>

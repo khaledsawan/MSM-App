@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@color/white"
+tools:context=".ui.UI_Customer_Visitor.CustomerUI_Main.Customer_Main_Fragment">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+        <Button
+            android:id="@+id/main_btn_Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_profile"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:text="@string/main_btn_Profile_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/gray8383"
+            android:background="@drawable/shape_for_btn"
+            android:layout_margin="15dp"
+            app:backgroundTint="@null"
+            android:drawableEnd="@drawable/ic_profile" />
+
+        <Button
+            android:id="@+id/main_btn_availability_of_gates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_availability_of_gates"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:text="@string/availability_of_gates_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            app:backgroundTint="@null"
+            android:textColor="@color/gray8383"
+
+
+            android:textStyle="bold"
+            android:background="@drawable/shape_for_btn"
+            android:layout_margin="15dp"            android:drawableEnd="@drawable/ic_availability_of_gates" />
+        <Button
+            android:id="@+id/main_btn_Change_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_password"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:text="@string/main_btn_Change_Password_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            android:textColor="@color/gray8383"
+            android:textStyle="bold"
+            android:background="@drawable/shape_for_btn"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_password"
+            app:backgroundTint="@null"/>
+        <Button
+            android:id="@+id/main_btn_Change_Speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_change_speed"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:text="@string/main_btn_Change_Speed_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/gray8383"
+            android:background="@drawable/shape_for_btn"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_change_speed"
+            app:backgroundTint="@null"/>
+        <Button
+            android:id="@+id/main_btn_center_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_bill_payment_centers"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:text="@string/bill_payment_centers_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/gray8383"
+            android:background="@drawable/shape_for_btn"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_bill_payment_centers"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/main_btn_recharge_the_packagee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/shape_for_btn"
+            android:drawableEnd="@drawable/ic_recharge_the_package"
+            android:drawableRight="@drawable/ic_recharge_the_package"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            android:text="@string/recharge_the_package"
+            android:textAllCaps="false"
+            android:textColor="@color/gray8383"
+            android:textSize="@dimen/Medium_Text"
+            android:textStyle="bold"
+            app:cornerRadius="50dp"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/main_btn_myservice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_my_services"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:text="@string/my_services_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/gray8383"
+            android:background="@drawable/shape_for_btn"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_my_services"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/btn_offers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_offers_and_advertisements"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:text="@string/offers_and_advertisements_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/gray8383"
+            android:background="@drawable/shape_for_btn"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_offers_and_advertisements"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/main_btn_regist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_register_a_subscription_request"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:text="@string/register_a_subscription_request_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/gray8383"
+            android:background="@drawable/shape_for_btn"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_register_a_subscription_request"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/main_btn_support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_live_support"
+            android:shadowRadius="@integer/material_motion_duration_long_2"
+            app:cornerRadius="50dp"
+            android:text="@string/live_support_text"
+            android:textSize="@dimen/Medium_Text"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/gray8383"
+            android:background="@drawable/shape_for_btn"
+            android:layout_margin="15dp"
+            android:drawableEnd="@drawable/ic_live_support"
+            app:backgroundTint="@null"/>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

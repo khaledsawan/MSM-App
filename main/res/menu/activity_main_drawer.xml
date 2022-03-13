@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="@string/menu_login" />
+        <item
+            android:id="@+id/nav_Visitor_Main"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_Customer_Main"
+            android:icon="@drawable/ic_customers_btn"
+            android:title="@string/menu_Customer_Home" />
+
+        <item
+            android:id="@+id/nav_Center_Main"
+            android:icon="@drawable/ic_baseline_home_work_24"
+            android:title="@string/menu_Center_Home" />
+
+        <item
+            android:id="@+id/nav_Admin_Main"
+            android:icon="@drawable/ic_top_main_fragment_manager"
+            android:title="@string/menu_Admin_Home" />
+
+        <item
+            android:id="@+id/nav_Connect_With_Us"
+            android:icon="@drawable/ic_baseline_support_agent_24"
+            android:title="@string/menu_connect_with_us" />
+        <item
+            android:id="@+id/nav_Who_Are_We"
+            android:icon="@drawable/ic_us_we"
+            android:title="@string/menu_who_are_we" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>
